@@ -1,2 +1,7 @@
 # MyApplication
 PMD FINAL PROJECT - CARBON FOOTPRINT CALCULATOR 
+
+NAME: Zahiruddin Elmy Bin Azmi, MATRICS NO: 012024071300 
+NAME: Boyrexsmitch Anak Dea, MATRICS NO: 012024091963 
+NAME: :Muhammad Danial Asyraf Bin Zool Hilmi, MATRICS NO: 012024070297 
+NAME: Muhammad Haziq Bin Mohamad Rostam, MATRICS NO: 012024091885 
