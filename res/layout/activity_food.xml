@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+    tools:context=".ActivityFood">
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:text="Add activity"
+        android:textSize="17dp"
+
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView2"
+        android:layout_width="350dp"
+        android:layout_height="96dp"
+        android:layout_marginTop="84dp"
+        app:cardElevation="30dp"
+        app:cardCornerRadius="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:padding="23dp">
+
+            <ImageButton
+                android:id="@+id/car"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="27dp"
+                android:background="@drawable/corner_radius"
+                android:backgroundTint="#8061309B"
+                android:scaleType="fitCenter"
+                android:src="@drawable/car_icon"
+                android:contentDescription="NULL"/>
+
+            <ImageButton
+                android:id="@+id/enrgy"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginRight="27dp"
+                android:background="@drawable/corner_radius"
+                android:backgroundTint="#8061309B"
+                android:scaleType="fitCenter"
+                android:src="@drawable/energy"
+                android:contentDescription="NULL"/>
+
+            <ImageButton
+                android:id="@+id/shop"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginRight="27dp"
+                android:background="@drawable/corner_radius"
+                android:backgroundTint="#8061309B"
+                android:scaleType="fitCenter"
+                android:src="@drawable/bag"
+                android:contentDescription="NULL"/>
+
+            <ImageButton
+                android:id="@+id/McD"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/corner_radius"
+                android:backgroundTint="#61309B"
+                android:scaleType="fitCenter"
+                android:src="@drawable/food"
+                android:contentDescription="NULL"/>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="208dp"
+        android:text="Category transportation"
+        android:textSize="17dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="344dp"
+        android:layout_height="430dp"
+        android:layout_marginTop="256dp"
+        app:cardElevation="30dp"
+        app:cardCornerRadius="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingTop="30dp"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:paddingBottom="10dp"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Diet type"
+                android:textSize="16dp"/>
+
+            <Spinner
+                android:id="@+id/spinner_vehicle"
+                android:layout_width="match_parent"
+                android:layout_height="48dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Weekly food Consumption"
+                android:textSize="16dp"
+                android:layout_marginTop="10dp"/>
+
+            <Spinner
+                android:id="@+id/spinner_Fuel"
+                android:layout_width="match_parent"
+                android:layout_height="48dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Food Consumption Type"
+                android:textSize="16dp"
+                android:layout_marginTop="10dp"/>
+
+            <Spinner
+                android:id="@+id/spin_eat"
+                android:layout_width="match_parent"
+                android:layout_height="48dp" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Calculate"
+                android:layout_margin="20dp"/>
+
+<!--            <Button-->
+<!--                android:id="@+id/button4"-->
+<!--                android:layout_width="245dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_gravity="center"-->
+<!--                android:text="Next" />-->
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

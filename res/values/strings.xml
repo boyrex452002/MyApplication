@@ -1,0 +1,74 @@
+<resources>
+    <!-- Only one app_name entry -->
+    <string name="app_name">Carbon Footprint Calculator</string>
+
+    <string name="welcome_to_carbon_footprint_calculator">Welcome to Carbon Footprint Calculator!</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="username">Username</string>
+    <string name="welcome_back">Welcome Back!</string>
+
+    <string name="username_hint">Enter your username</string>
+    <string name="email_hint">Enter your email address</string>
+    <string name="password_hint">Enter your password</string>
+    <string name="login">Login</string>
+    <string name="logout">Logout</string>
+    <string name="user_profile_button">User profile button</string>
+    <string name="email_address">Email address</string>
+    <string name="emailprofile">Email</string>
+    <string name="emailedit">Email</string>
+
+    <!-- Spinner Data -->
+    <string-array name="vehicle_types">
+        <item>Car</item>
+        <item>Bus</item>
+        <item>Motorcycle</item>
+        <item>Bicycle</item>
+    </string-array>
+
+    <string-array name="fuel_types">
+        <item>Petrol</item>
+        <item>Diesel</item>
+        <item>Electric</item>
+        <item>Hybrid</item>
+    </string-array>
+
+    <string-array name="diet_types">
+        <item>Meat-heavy</item>
+        <item>Balanced</item>
+        <item>Vegetarian</item>
+        <item>Vegan</item>
+    </string-array>
+
+    <string-array name="food_consumption_types">
+        <item>High</item>
+        <item>Medium</item>
+        <item>Low</item>
+    </string-array>
+
+    <string-array name="purchase_types">
+        <item>Clothing</item>
+        <item>Electronics</item>
+        <item>Groceries</item>
+        <item>Luxury</item>
+    </string-array>
+
+    <string-array name="energy_source_types">
+        <item>Grid Electricity</item>
+        <item>Solar</item>
+        <item>Wind</item>
+        <item>Hydro</item>
+    </string-array>
+
+    <string name="view_details">View Details</string>
+    <string name="edit_timestamp">Edit Timestamp</string>
+    <string name="delete_history">Delete History</string>
+    <string name="edit_timestamp_title">Edit Timestamp</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="history_title">History of Calculations</string>
+    <string name="timestamp_updated">Timestamp updated</string>
+    <string name="history_deleted">History deleted</string>
+    <string name="view_history">View History</string>
+</resources>
